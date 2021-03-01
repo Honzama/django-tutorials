@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  udemy_django_rest_tutorial:
+    build:
+      context: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./udemy_django_rest_tutorial:/udemy_django_rest_tutorial
+    command: >
+      sh -c "python manage.py runserver 0.0.0.0:8000"
