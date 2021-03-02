@@ -1,6 +1,7 @@
 from django.test import TestCase
 
-from calc import *
+from udemy_django_rest_tutorial.calc import *
+
 
 class CalcTests(TestCase):
 
