@@ -1,6 +1,6 @@
 from django.test import TestCase
 
-from udemy_django_rest_tutorial.calc import *
+from udemy_django_rest_tutorial.calc import add, subtract
 
 
 class CalcTests(TestCase):
