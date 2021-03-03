@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'udemy_django_rest_tutorial.calc',
     'core',
     'user',
+    'recipe',
 ]
 
 MIDDLEWARE = [
