@@ -38,8 +38,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
+    'rest_framework.authtoken',
     'udemy_django_rest_tutorial.calc',
     'core',
+    'user',
 ]
 
 MIDDLEWARE = [
